@@ -4,7 +4,7 @@ pipeline {
     stage('verify act installation') {
       steps {
         sh 'ls -ll'
-        sh 'cd ..'
+        sh 'pwd'
         sh 'ls -ll'
       }
     }
