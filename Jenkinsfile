@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('verify act installation') {
       steps {
-        sh 'act --version'
+        sh 'ls -ll'
       }
     }
     stage('run the entire pipeline') {
