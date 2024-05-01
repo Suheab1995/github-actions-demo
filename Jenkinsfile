@@ -4,6 +4,8 @@ pipeline {
     stage('verify act installation') {
       steps {
         sh 'ls -ll'
+        sh 'cd ..'
+        sh 'ls -ll'
       }
     }
     stage('run the entire pipeline') {
